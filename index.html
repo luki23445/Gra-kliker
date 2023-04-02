@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kliknij aby rozpocząć</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/cbd8a1cfd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <div class="menu">
+    <i id="tabelka" class="fa-solid fa-table-list"></i>
+    <i id="ustawienia" class="fa-solid fa-gears"></i>
+
+  </div>
+    <h1 class="text" id="koniec_czasu">KONIEC!</h1>
+    <div class="div">
+      <h1 class="liczba" id="jeden">3</h1>
+      <h1 class="liczba" id="dwa">2</h1>
+      <h1 class="liczba" id="trzy">1</h1>
+      <h1 class="text" id="start">STARRT!</h1>
+      <h1 class="wynik" id="koniec"></h1>
+      <h1 class="kla" id="kla">Kliknij enter aby rozpocząć</h1>
+    </div>
+    <div class="kliker">
+      <button id="kliker">Ilość kliknięć: 0</button>
+    </div>
+    <div class="progres_bar">
+      <i class="fa-solid fa-clock fa-1x"></i>
+      <div id="bar" class="bar">
+        <div class="progres"></div>
+      </div>
+    </div>
+  <div id="tabelka_pop">
+    <table id="ranking">
+    </table>
+  </div>
+
+      <div id="ustawienia_pop">
+        <h3>Kolor tła:<div class="div_color">
+          <input type="color" value="#add8e6" id="k_tlo" />
+        </div></h3>
+        <h3>kolor przycisku:<div class="div_color">
+          <input type="color" value="#2196f3" id="k_przycisk" />
+        </div></h3>
+        <h3>kolor progres bara:<div class="div_color">
+          <input type="color" value="#87ff62" id="k_progres" />
+        </div></h3>
+        <script src="./app.js"></script>
+</body>
+</html>
